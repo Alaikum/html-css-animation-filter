@@ -1,7 +1,7 @@
 /* TEMPI DI TRANSIZIONI  */
 
 .ex-1-square,
-.ex-2-square,
+.ex-2-square
 {
 transition: 3s;
 }
