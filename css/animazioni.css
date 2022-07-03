@@ -77,3 +77,62 @@ transition: 3s;
         transform: rotate(360deg);
     }
 }
+
+.ex-11-icon:hover {
+    animation: orario 1s linear;
+
+}
+
+@keyframes orario {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    90% {
+        transform: rotate(315deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: barra-top 2s linear;
+}
+
+
+@keyframes barra-top {
+    0% {
+        left: 10%;
+    }
+
+    50% {
+        left: 70%
+    }
+
+    100% {
+        left: 10%;
+    }
+
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: barra-bot 2s linear;
+}
+
+@keyframes barra-bot {
+    0% {
+        right: 20%;
+    }
+
+    50% {
+        right: 70%;
+    }
+
+    100% {
+        right: 20%;
+    }
+}
