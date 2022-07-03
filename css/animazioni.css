@@ -136,3 +136,81 @@ transition: 3s;
         right: 20%;
     }
 }
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: giro-top 2s linear;
+    /* background-color: red; */
+}
+
+
+@keyframes giro-top {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+
+    25% {
+        left: 90%;
+        top: -10px
+    }
+
+    50% {
+        left: 90%;
+        top: 100%;
+    }
+
+    75% {
+        left: -10px;
+        top: 100%;
+    }
+
+    90% {
+        left: -10px;
+        top: -10px;
+    }
+
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+
+}
+
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: giro-bot 2s linear;
+    /* background-color: red; */
+}
+
+@keyframes giro-bot {
+    0% {
+        right: 20%;
+        bottom: -10px;
+    }
+
+    25% {
+        right: 80%;
+        bottom: -10px
+    }
+
+    50% {
+        right: 80%;
+        bottom: 100%;
+    }
+
+    75% {
+        right: -10px;
+        bottom: 100%;
+    }
+
+    90% {
+        right: -10px;
+        bottom: -10px;
+    }
+
+    100% {
+        right: 20%;
+        bottom: -10px;
+    }
+
+}
