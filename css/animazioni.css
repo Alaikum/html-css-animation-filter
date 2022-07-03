@@ -14,7 +14,8 @@
 }
 
 .ex-3-square,
-.ex-4-square{
+.ex-4-square,
+.ex-5-square{
     transition: 1s;
 }
 
@@ -25,4 +26,13 @@
 
 .ex-4-square:hover{
     background-color: transparent;
+}
+
+
+.ex-5-square:hover{
+    transform: scale(2);
+}
+
+.ex-5-square:active{
+    transform: scale(0.5);
 }
