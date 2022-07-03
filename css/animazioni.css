@@ -1,10 +1,14 @@
+/* soluzione  */
 
-/* soluzione primo eserczio */
-
-.ex-1-square{
+.ex-1-square,
+.ex-2-square {
     transition: 3s;
 }
 
-.ex-1-square:hover{
+.ex-1-square:hover {
     background-color: red;
+}
+
+.ex-2-square:active{
+    width: 100%
 }
